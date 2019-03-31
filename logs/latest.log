@@ -1,0 +1,193 @@
+[03:26:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[03:26:14] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[03:26:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[03:26:14] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
+[03:26:14] [main/INFO] [FML]: Java is Java HotSpot(TM) Client VM, version 1.8.0_201, running on Windows 10:x86:10.0, installed at C:\Program Files (x86)\Java\jre1.8.0_201
+[03:26:14] [main/INFO] [FML]: Searching C:\Users\49610\Desktop\1.12server\.\mods for mods
+[03:26:14] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in AppleCore-mc1.12.2-3.2.0.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[03:26:14] [main/WARN] [FML]: The coremod AppleCore (squeek.applecore.AppleCore) is not signed!
+[03:26:14] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from spongeforge-1.12.2-2768-7.1.5.jar
+[03:26:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[03:26:14] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[03:26:14] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/C:/Users/49610/Desktop/1.12server/./mods/spongeforge-1.12.2-2768-7.1.5.jar Service=LaunchWrapper Env=SERVER
+[03:26:14] [main/WARN] [FML]: The coremod SpongeCoremod (org.spongepowered.mod.SpongeCoremod) is not signed!
+[03:26:14] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[03:26:14] [main/INFO] [mixin]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[DEFAULT]
+[03:26:14] [main/INFO] [mixin]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[PREINIT]
+[03:26:14] [main/INFO] [mixin]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[INIT]
+[03:26:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[03:26:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[03:26:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[03:26:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[03:26:15] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[03:26:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[03:26:15] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[03:26:15] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@1e30571
+[03:26:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[03:26:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[03:26:15] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[03:26:15] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[03:26:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[03:26:15] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[03:26:18] [main/WARN] [mixin]: Static binding violation: PRIVATE overwrite method initializeConnectionToPlayer in mixins.common.core.json:server.MixinPlayerList cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[03:26:18] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[03:26:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[03:26:21] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2768 Initialized
+[03:26:21] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[03:26:21] [Server thread/INFO] [FML]: Replaced 1036 ore ingredients
+[03:26:21] [Server thread/INFO] [Sponge]: Found mcmod.info at jar:file:/C:/Users/49610/Desktop/1.12server/./mods/spongeforge-1.12.2-2768-7.1.5.jar!/mcmod.info
+[03:26:21] [Server thread/INFO] [Sponge]: Creating injector in stage 'PRODUCTION'
+[03:26:23] [Server thread/INFO] [FML]: Searching C:\Users\49610\Desktop\1.12server\.\mods for mods
+[03:26:24] [Server thread/INFO] [FML]: Disabling mod neat it is client side only.
+[03:26:24] [Server thread/INFO] [FML]: Forge Mod Loader has identified 17 mods to load
+[03:26:24] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[03:26:24] [Server thread/WARN] [FML]: Missing English translation for spongeapi: assets/spongeapi/lang/en_us.lang
+[03:26:24] [Server thread/WARN] [FML]: Missing English translation for spongeforge: assets/spongeforge/lang/en_us.lang
+[03:26:24] [Server thread/WARN] [FML]: Missing English translation for ic2-classic-spmod: assets/ic2-classic-spmod/lang/en_us.lang
+[03:26:24] [Server thread/WARN] [FML]: Missing English translation for mantle: assets/mantle/lang/en_us.lang
+[03:26:24] [Server thread/INFO] [FML]: FML has found a non-mod file Neat+1.4-17.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[03:26:24] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, applecore, appliedenergistics2, ic2, ic2-classic-spmod, jei, journeymap, mantle, flammpfeil.slashblade, tconstruct, lastsmith] at CLIENT
+[03:26:24] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, applecore, appliedenergistics2, ic2, ic2-classic-spmod, jei, journeymap, mantle, flammpfeil.slashblade, tconstruct, lastsmith] at SERVER
+[03:26:24] [Server thread/WARN] [Sponge]: There's no certificate fingerprint available
+[03:26:25] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse chiselIntegration; missing dependency: chisel
+[03:26:25] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse chiselsandbitsIntegration; missing dependency: chiselsandbits
+[03:26:25] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse craftingtweaksIntegration; missing dependency: craftingtweaks
+[03:26:25] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse wailaIntegration; missing dependency: waila
+[03:26:25] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse theoneprobeIntegration; missing dependency: theoneprobe
+[03:26:25] [Server thread/INFO] [tconstruct]: Preparing to take over the world
+[03:26:25] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[03:26:25] [Server thread/INFO] [FML]: Found 1171 ObjectHolder annotations
+[03:26:25] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[03:26:25] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[03:26:25] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[03:26:25] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[03:26:25] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[03:26:25] [Forge Version Check/INFO] [forge.VersionCheck]: [spongeforge] Starting version check at https://files.minecraftforge.net/maven/org/spongepowered/spongeforge/promotions_slim.json
+[03:26:25] [Forge Version Check/INFO] [forge.VersionCheck]: [spongeforge] Found status: OUTDATED Target: 7.1.2
+[03:26:26] [Server thread/INFO] [AE2:S]: Pre Initialization ( started )
+[03:26:27] [Server thread/INFO] [AE2:S]: Starting AE2 VersionChecker
+[03:26:27] [Server thread/INFO] [AE2:S]: Pre Initialization ( ended after 1360ms )
+[03:26:27] [AE2 VersionChecker/INFO] [AE2:S]: Last check was just recently.
+[03:26:27] [AE2 VersionChecker/INFO] [AE2:S]: Stopping AE2 VersionChecker
+[03:26:29] [Server thread/INFO] [lastsmith]: Started loading config. 
+[03:26:29] [Server thread/INFO] [lastsmith]: Finished loading config. 
+[03:26:30] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.table`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:30] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.craftingstation`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:30] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.stenciltable`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:30] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.partbuilder`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:30] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.patternchest`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:30] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.partchest`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:30] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.toolstation`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:30] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.toolforge`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:30] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_controller`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:30] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_component`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:30] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.tank`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:30] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.faucet`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:30] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.channel`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:30] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.casting_table`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:30] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.casting_basin`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:30] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_drain`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:30] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.seared_furnace`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:30] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.tinker_tank`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:30] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.item_rack`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:30] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.drying_rack`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:30] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.wooden_hopper`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:30] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.slime_channel`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:30] [Server thread/INFO] [FML]: Applying holder lookups
+[03:26:30] [Server thread/INFO] [FML]: Holder lookups applied
+[03:26:30] [Server thread/INFO] [FML]: Applying holder lookups
+[03:26:30] [Server thread/INFO] [FML]: Holder lookups applied
+[03:26:30] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `sponge` for name `human`, expected `spongeforge`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:30] [Server thread/INFO] [FML]: Applying holder lookups
+[03:26:30] [Server thread/INFO] [FML]: Holder lookups applied
+[03:26:30] [Server thread/INFO] [FML]: Applying holder lookups
+[03:26:30] [Server thread/INFO] [FML]: Holder lookups applied
+[03:26:30] [Server thread/INFO] [FML]: Injecting itemstacks
+[03:26:30] [Server thread/INFO] [FML]: Itemstack injection complete
+[03:26:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[03:26:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[03:26:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[03:26:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[03:26:30] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using default channel type
+[03:26:31] [Server thread/INFO] [FML]: Applying holder lookups
+[03:26:31] [Server thread/INFO] [FML]: Holder lookups applied
+[03:26:31] [Server thread/INFO] [AE2:S]: Initialization ( started )
+[03:26:31] [Server thread/INFO] [AE2:S]: Disabling item.csv export for custom recipes, since creative tab information is only available on the client.
+[03:26:31] [Server thread/INFO] [AE2:S]: Initialization ( ended after 81ms )
+[03:26:31] [Server thread/INFO] [FML]: Ignored smelting recipe with conflicting input: 1xitem.itemMisc@0 = 1xitem.ingotIron@0
+[03:26:31] [Server thread/INFO] [FML]: Ignored smelting recipe with conflicting input: 1xitem.itemMisc@1 = 1xitem.ingotGold@0
+[03:26:31] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `flammpfeil.slashblade.named.yamazakura.minazuki`, expected `flammpfeil.slashblade`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:31] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `flammpfeil.slashblade.named.yamazakura.fumizuki`, expected `flammpfeil.slashblade`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:31] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `flammpfeil.slashblade.named.yamazakura.katura`, expected `flammpfeil.slashblade`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:31] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `flammpfeil.slashblade.named.yamazakura.tuki`, expected `flammpfeil.slashblade`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:31] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `flammpfeil.slashblade.named.smith_3`, expected `flammpfeil.slashblade`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:31] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `flammpfeil.slashblade.named.smith_last`, expected `flammpfeil.slashblade`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:31] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `flammpfeil.slashblade` for name `recipexes`, expected `lastsmith`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:31] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `flammpfeil.slashblade` for name `bamboolight`, expected `lastsmith`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:31] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `flammpfeil.slashblade` for name `white`, expected `lastsmith`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:31] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `flammpfeil.slashblade` for name `white2`, expected `lastsmith`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:31] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `flammpfeil.slashblade` for name `white3`, expected `lastsmith`. This could be a intended override, but in most cases indicates a broken mod.
+[03:26:31] [Server thread/INFO] [FML]: Injecting itemstacks
+[03:26:31] [Server thread/INFO] [FML]: Itemstack injection complete
+[03:26:31] [Server thread/WARN] [FML]: No types have been added to Biome appliedenergistics2:storage_biome, types have been assigned on a best-effort guess: [COLD, PLAINS]
+[03:26:31] [Server thread/INFO] [AE2:S]: Post Initialization ( started )
+[03:26:32] [Server thread/INFO] [AE2:S]: Industrial Craft 2 - Integration Enable
+[03:26:32] [Server thread/INFO] [AE2:S]: Railcraft - Integration Disabled
+[03:26:32] [Server thread/INFO] [AE2:S]: Mine Factory Reloaded - Integration Disabled
+[03:26:32] [Server thread/INFO] [AE2:S]: Waila - Integration Disabled
+[03:26:32] [Server thread/INFO] [AE2:S]: Mekanism - Integration Disabled
+[03:26:32] [Server thread/INFO] [AE2:S]: OpenComputers - Integration Disabled
+[03:26:32] [Server thread/INFO] [AE2:S]: TheOneProbe - Integration Disabled
+[03:26:32] [Server thread/INFO] [AE2:S]: Tesla - Integration Disabled
+[03:26:32] [Server thread/INFO] [AE2:S]: CraftTweaker - Integration Disabled
+[03:26:32] [Server thread/INFO] [AE2:S]: Post Initialization ( ended after 172ms )
+[03:26:32] [Server thread/INFO] [FML]: Custom Recipe Loader Start
+[03:26:32] [Server thread/INFO] [FML]: Custom Recipe Loader End
+[03:26:32] [Server thread/INFO] [FML]: Found Overleap with recipe: RInputOreDict<1xoreQuartz> Its not getting Added
+[03:26:32] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 17 mods
+[03:26:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[03:26:32] [Server thread/INFO] [Sponge]: Checking for worlds that need to be migrated...
+[03:26:32] [Server thread/INFO] [Sponge]: No worlds were found in need of migration.
+[03:26:32] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[03:26:33] [Server thread/INFO] [FML]: Applying holder lookups
+[03:26:33] [Server thread/INFO] [FML]: Holder lookups applied
+[03:26:33] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 992 advancements
+[03:26:33] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 9 advancement trees
+[03:26:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0 (world)
+[03:26:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 53%
+[03:26:35] [Server thread/INFO] [Sponge]: Loading world [world] (overworld)
+[03:26:35] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 992 advancements
+[03:26:35] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 9 advancement trees
+[03:26:35] [Server thread/INFO] [Sponge]: Loading world [DIM-1] (the_nether)
+[03:26:35] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 992 advancements
+[03:26:35] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 9 advancement trees
+[03:26:35] [Server thread/INFO] [Sponge]: Loading world [DIM1] (the_end)
+[03:26:35] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 992 advancements
+[03:26:35] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 9 advancement trees
+[03:26:35] [Server thread/INFO] [Sponge]: Loading world [DIM2] (Storage Cell)
+[03:26:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (2.977s)! For help, type "help" or "?"
+[03:31:49] [User Authenticator #1/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: UUID of player sonte_sir is 91a90e4a-f962-4068-bdc5-1cf4c1aef158
+[03:31:49] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[03:31:49] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 15 mods : minecraft@1.12.2,tconstruct@1.12.2-2.12.0.113,FML@8.0.99.99,applecore@3.2.0,jei@4.13.1.225,ic2-classic-spmod@0.0.0.0,forge@14.23.5.2768,ic2@2.8.999,mantle@1.12-1.3.3.39,neat@1.4-17,flammpfeil.slashblade@mc1.12-r20,lastsmith@@version@,mcp@9.42,journeymap@1.12.2-5.5.4,appliedenergistics2@rv6-stable-5
+[03:31:49] [Netty Server IO #1/INFO] [journeymap]: CLIENT
+[03:31:49] [Netty Server IO #1/INFO] [FML]: Attempting connection with missing mods [spongeapi, sponge, spongeforge] at CLIENT
+[03:31:50] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[03:31:50] [Server thread/INFO] [journeymap]: sonte_sir joining dimension 0
+[03:31:50] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: sonte_sir[/127.0.0.1:59068] logged in with entity id 219 in world(0) at (-3.5, 81.0, 97.5)
+[03:31:50] [Server thread/INFO] [journeymap]: Sending log in packet.
+[03:31:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: sonte_sir joined the game
+[03:32:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Opped sonte_sir
+[03:32:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [sonte_sir: Set own game mode to Creative Mode]
+[03:33:21] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: sonte_sir lost connection: Disconnected
+[03:33:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: sonte_sir left the game
+[03:49:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[03:49:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[03:49:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[03:49:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[03:49:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'DIM-1'/the_nether
+[03:49:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'DIM1'/the_end
+[03:49:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'DIM2'/Storage Cell
+[03:49:40] [Server thread/INFO] [Sponge]: Unloading world [world] (DIM0)
+[03:49:40] [Server thread/INFO] [Sponge]: Unloading world [DIM-1] (DIM-1)
+[03:49:40] [Server thread/INFO] [Sponge]: Unloading world [DIM1] (DIM1)
+[03:49:40] [Server thread/INFO] [Sponge]: Unloading world [DIM2] (DIM2)
